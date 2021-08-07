@@ -1,0 +1,71 @@
+
+body
+{
+    margin:0;
+   padding-top: 800px; 
+}
+#Tim{
+    width: 450px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+#welcome
+{
+    position: absolute;
+    overflow: hidden;
+    height:1000px;
+        color:blue;
+    text-align: center;
+    left: 0;
+        right:0;
+            top:0;
+            bottom:0;
+    background: linear-gradient(blue 0%,yellow 100%);
+    font-size: 40px; 
+    display: table;
+    width:100%;
+    z-index: 8;
+}
+.inner
+{display: table-cell;
+position: relative;
+    vertical-align: middle;
+    }
+#name
+{
+font-family: 'Lobster', cursive;
+}
+.line
+{height:6px;
+width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+p
+{font-size: 40px;
+margin: 25px auto;
+}
+.menu
+{
+list-style: none;
+    font-family:serif;
+        position:absolute;
+    top:30px;
+    z-index: 10;
+}
+.links
+{
+    float: left;
+    color: aqua;
+    padding-bottom:9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 9px;
+    font-size: 25px;
+}
+.links:hover
+{
+    background-color:darkslategrey;
+    
+    
+}
